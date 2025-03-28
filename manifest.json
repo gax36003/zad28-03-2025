@@ -1,0 +1,14 @@
+{
+    "name": "",
+    "short_name": "",
+    "start_url": "",
+    "background_color": "",
+    "theme_color": "",
+    "display": "",
+    "scope": "",
+    "icons":[{
+            "src": "./icon.png",
+            "sizes": "",
+            "types": ""
+        }]
+}
