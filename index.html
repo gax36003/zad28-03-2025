@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja pogodowa</title>
+    
+  <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+    <header>Aplikacja pogodowa</header>
+    <main>
+        <section class="search">
+            <input type="text" placeholder="Podaj nazwę miasta">
+            <button >Sprawdź pogodę</button>
+            <p class="error_message"></p>
+        </section>
+            <h2 class="city_name"></h2>
+            <div>
+                <img src="" alt="">
+                <p class="temp"></p>
+            </div>
+            <p class="description"></p>
+        <section></section>
+        <section class="weather_bottom">
+            <p>Temperaura odczuwalna: <span class="feels_like"></span></p>
+            <p>Ciśnienie: <span class="pressure"></span></p>
+            <p>Wilgotność: <span class="humidity"></span></p>
+            <p>Prędkość wiartu: <span class="wind_speed"></span></p>
+            <p>Zachmurzenie: <span class="clouds"></span></p>
+            <p>Widoczność: <span class="visibility"></span></p>
+        </section>
+    </main>
+    <footer>
+        <p>Projekt WSB Merito Gdynia 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./sw.js"></script>
+</body>
+</html>
