@@ -1,8 +1,8 @@
 {
     "name": "Aplikacja pogodowa",
     "short_name": "Pogodynka",
-    "theme_color": "#2196f3",
-    "background_color": "#2196f3",
+    "theme_color": "#a0ffff",
+    "background_color": "#a0ffff",
     "display": "fullscreen",
     "orientation": "portrait",
     "scope": "/",
