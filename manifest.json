@@ -1,14 +1,15 @@
 {
-    "name": "",
-    "short_name": "",
-    "start_url": "",
-    "background_color": "",
-    "theme_color": "",
-    "display": "",
-    "scope": "",
+    "name": "Aplikacja pogodowa",
+    "short_name": "Pogodynka",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/zad28-03-2025/",
     "icons":[{
             "src": "./icon.png",
-            "sizes": "",
-            "types": ""
+            "sizes": "512x512",
+            "types": "image/png"
         }]
 }
